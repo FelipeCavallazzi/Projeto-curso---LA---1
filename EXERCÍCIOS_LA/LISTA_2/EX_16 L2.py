@@ -1,7 +1,7 @@
 a = float(input("Insira o valor de a: "))
 if a == 0:
     print("Se a = 0 a equação não é de segundo grau. ")
-else:
+elif a !=0:
     b = float(input("Insira o valor de b: "))
     c = float(input("Insira o valor de c: "))
 

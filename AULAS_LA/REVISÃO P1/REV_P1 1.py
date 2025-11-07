@@ -13,7 +13,7 @@ for i in range(1,16):
 maior = max(lista)
 menor = min(lista)
 
-media = (sum(lista))/i
+media = (sum(lista))/len(lista)
 
 for nota in lista:
     if nota>=media:
